@@ -1,0 +1,11 @@
+{
+  "masters": ["MESOS_IP:5050"],
+  "refreshSeconds": 60,
+  "ttl": 60,
+  "domain": "mesos",
+  "port": 53,
+  "resolvers": ["8.8.8.8"],
+  "timeout": 5,
+  "listener": "0.0.0.0",
+  "email": "root.mesos-dns.mesos"
+}
