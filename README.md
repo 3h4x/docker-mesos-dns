@@ -2,7 +2,7 @@
 
 quick start
 
-`MESOS_DNS=$(docker run -it -e MESOS_IP=_YOUR_MESOS_MASTER_IP_-e RESOLVER='["_YOUR_DNS_ADD", "_ANOTHER_DNS_ADDR"]' -p 53:53/udp 3h4x/mesos-dns)`
+`MESOS_DNS=$(docker run -it -e MESOS_IP=_YOUR_MESOS_MASTER_IP_-e RESOLVER='"_YOUR_DNS_ADD", "_ANOTHER_DNS_ADDR"' -p 53:53/udp 3h4x/mesos-dns)`
 
 check if all is good with
 
