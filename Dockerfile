@@ -1,8 +1,8 @@
 FROM golang
 
 RUN git clone https://github.com/mesosphere/mesos-dns.git
-RUN cd mesos-dns && make
 RUN go get github.com/tools/godep
+RUN cd mesos-dns && make
 
 ADD config.json /go/mesos-dns/
 ADD start.sh /go/mesos-dns/
